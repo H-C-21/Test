@@ -1,0 +1,30 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .greeting {
+    font-size: 24px;
+  }
+  
+  .userName {
+    font-size: 18px;
+  }
+ 
+  .textcontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .bgwrap{
+    width: 100%;
+    height: 75vh;
+    /* padding: 0 4rem; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('Engine.png');
+  }
