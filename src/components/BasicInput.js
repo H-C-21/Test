@@ -1,5 +1,6 @@
 import { Grid, TextField} from "@mui/material";
 import { useState,useEffect, Fragment } from "react";
+import React from "react";
 
 import classes from './BasicInput.module.css';
 let currcolor = '#ffffff';
@@ -70,4 +71,4 @@ function BasicInput(props){
       )
 }
 
-export default BasicInput;
+export default React.memo(BasicInput);
