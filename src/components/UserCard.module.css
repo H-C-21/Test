@@ -1,0 +1,92 @@
+
+.container {
+  background-color: #ECEFF1;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  justify-self: center;
+  position: relative;
+  transition: 100ms;
+  
+}
+
+.name{
+  
+}
+
+.cardmain{
+  transition: transform .2s;
+  color: white;
+  border-radius: 6px;
+  
+}
+
+.cardmain:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.follow:hover, .icon:hover, .profile-img:hover {
+  cursor: pointer;
+}
+
+.notloaded{
+  display: none;
+}
+
+.profileimg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 3;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+}
+
+.backgroundimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.done{
+
+}
+.name {
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+  color: white;
+  top: 50%;
+}
+
+.bio {
+  margin: 15px;
+  margin-top: 0px;
+}
+
+.icon {
+  width: 19px;
+  position: absolute;
+  margin-left: -28px;
+  margin-top: 3px;
+}
+
+.follow {
+  font-size: 14px;
+  width: 50px;
+  color: #ECEFF1;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.7);
+}
+

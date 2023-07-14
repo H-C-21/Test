@@ -1,0 +1,49 @@
+.maincont{
+    min-height: 10rem;
+    background-color: #222426;
+    margin-top: 3rem;
+    /* padding: 2rem; */
+}
+
+.usercard{
+   
+    
+    /* margin: 4px 8px ; */
+}
+
+.index1{
+    padding: 0px 6px;
+}
+.info{
+    background-color: #181A1B;
+    padding: 2.5rem 1.2rem 1.5rem 1.2rem;
+    margin-top: 0.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: 2px solid white;
+}
+
+.minor{
+    max-width: 276px;
+    min-width: 10.5rem;
+    background-color: #181A1B;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: 2px solid white;
+    padding: 2rem 1rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profimg{
+    margin: '0 auto'; 
+    
+
+}

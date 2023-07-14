@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            A2Z
+            Fleska
           </Typography>
 
           
@@ -65,13 +65,7 @@ function ResponsiveAppBar() {
               </Button></Link>
 
               <MenuButton/>
-              <a href = 'https://fastidious-palmier-09fcf1.netlify.app' style={{textDecoration: 'none'}}>
-              <Button
-                key='Users'
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}>
-                <div className={classes.lnk}>Circles</div>
-              </Button></a>
+            
               
             
           </Box>

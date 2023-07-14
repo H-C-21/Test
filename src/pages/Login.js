@@ -53,6 +53,7 @@ function LoginPage(){
             <Container component="main" maxWidth="sm" sx={{minWidth: '10rem', margin: '5rem auto'}}>
             <Box
               sx={{
+                backgroundColor: '#0F1111',
                 boxShadow: 3,
                 borderRadius: 2,
                 px: 4,
@@ -63,22 +64,20 @@ function LoginPage(){
                 alignItems: "center",
               }}
             >
-              <Typography component="h1" variant="h4" sx={{paddingBottom: '1rem'}}>
+              <Typography component="h1" variant="h4" sx={{paddingBottom: '1rem', color: "white"}}>
                 Sign in
               </Typography>
 
               <Box component="form" onSubmit={submitHandler} noValidate sx={{ mt: 1, width: '100%' }}>
                 <BasicInput type = 'text' label = 'Username' err= 'Invalid Username' validation={ValidateUsername}></BasicInput>
                 <BasicInput type = 'password' label = 'Password' err= 'Password must be Longer Than 6 Characters' validation={ValidatePassword}></BasicInput>
-                <FormControlLabel
-                  control={<Checkbox value="remember" color="primary" />}
-                  label="Remember me"
-                />
+              
                 <Button
                   type="submit"
                   fullWidth
+                  
                   variant="contained"
-                  sx={{ mt: 3, mb: 2, minWidth: '3rem'}}
+                  sx={{ mt: 3, mb: 2, minWidth: '3rem', backgroundColor: '#11519A' }}
                 >
                   Sign In
                 </Button>

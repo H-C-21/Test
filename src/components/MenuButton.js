@@ -67,7 +67,7 @@ export default function MenuButton(){
           onClick={handleToggle}
           
         >
-          Tickets
+          View Profile
         </Button>
         <Popper
           open={open}
@@ -94,8 +94,7 @@ export default function MenuButton(){
                     onKeyDown={handleListKeyDown}
                   > 
                     
-                    <MenuItem onClick={handleClose} component={Link} to={'/newticket'}>Issue New Ticket</MenuItem>
-                    <MenuItem onClick={handleClose}>Check Tickets</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to={'/viewprofile'}>View Profile</MenuItem>
                     <MenuItem onClick={logoutHandler}>Logout</MenuItem>
                   </MenuList>
                 </ClickAwayListener>

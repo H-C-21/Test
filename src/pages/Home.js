@@ -35,7 +35,7 @@ function HomePage(){
    
     return (  
 
-          <Box sx={{padding: '2.5rem 2rem'}}>
+          <Box >
             <div className={classes.bgwrap}>
               <Grid container direction='column' alignItems="center" justifyContent="center" sx={{margin: '1rem auto'}}>
                 <Grid item sx={{color: 'white', paddingTop:'2.5rem'}}>
