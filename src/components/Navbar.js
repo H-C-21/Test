@@ -76,4 +76,4 @@ function ResponsiveAppBar() {
     </AppBar></Box>
   );
 }
-export default ResponsiveAppBar;
+export default React.memo(ResponsiveAppBar);

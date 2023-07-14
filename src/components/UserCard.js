@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,memo } from 'react';
 import classes from './UserCard.module.css'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -58,4 +58,4 @@ function UserCard(props){
     )
          }
 
-export default UserCard;
+export default memo(UserCard);
